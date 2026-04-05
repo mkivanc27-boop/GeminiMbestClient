@@ -7,7 +7,6 @@
     "PerformanceMixin",
     "FullbrightMixin",
     "DarkGuiMixin",
-    "MbestHudMixin",
     "ClickGuiKeyMixin"
   ],
   "injectors": {
