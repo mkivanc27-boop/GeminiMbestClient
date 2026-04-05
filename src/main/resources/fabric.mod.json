@@ -3,13 +3,18 @@
   "id": "mbest-client",
   "version": "1.0.0",
   "name": "Mbest Client",
-  "description": "1.20.2 En Yuksek FPS & PvP Deneyimi",
-  "entrypoints": { "client": [ "com.mbest.client.MbestClient" ] },
-  "mixins": [ "mbest.mixins.json" ],
+  "description": "Right Shift Menu & FPS Boost",
+  "entrypoints": {
+    "client": [
+      "com.mbest.client.MbestClient"
+    ]
+  },
+  "mixins": [
+    "mbest.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.15.0",
     "minecraft": "1.20.2",
     "java": ">=17"
   }
 }
-
