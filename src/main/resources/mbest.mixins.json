@@ -7,7 +7,8 @@
     "PerformanceMixin",
     "FullbrightMixin",
     "DarkGuiMixin",
-    "ClickGuiKeyMixin"
+    "ClickGuiKeyMixin",
+    "WindowMixin"
   ],
   "injectors": {
     "defaultRequire": 1
