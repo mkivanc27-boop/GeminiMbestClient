@@ -1,3 +1,11 @@
+pluginManagement {
+    repositories {
+        maven { url = "https://maven.fabricmc.net/" }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
 plugins {
     id 'fabric-loom' version '1.4-SNAPSHOT'
     id 'maven-publish'
@@ -6,7 +14,6 @@ plugins {
 version = project.mod_version
 group = project.maven_group
 
-// BU KISIM EKSİKTİ: Loom eklentisini bulması için gerekli
 repositories {
     maven { url = "https://maven.fabricmc.net/" }
     mavenCentral()
