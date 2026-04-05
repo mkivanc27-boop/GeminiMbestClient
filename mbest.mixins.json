@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.mbest.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PerformanceMixin",
+    "NoHurtCamMixin",
+    "FullbrightMixin",
+    "DarkGuiMixin",
+    "MbestHudMixin"
+  ]
+}
+
