@@ -9,10 +9,12 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(GameRenderer.class)
 public class NoHurtCamMixin {
     
-    // 1.20.2'de isim çakışması olmaması için remap'i kapatıyoruz veya tam hedef veriyoruz
-    @Inject(method = "bobViewWhenHurt", at = @At("HEAD"), cancellable = true, remap = true)
+    /**
+     * @author MbestClient
+     * @reason Ekran sallanmasını durdurmak için kesin yöntem
+     */
+    @Inject(method = "method_3186", at = @At("HEAD"), cancellable = true, remap = false)
     private void stopShake(CallbackInfo ci) {
-        // Ekran sallanmasını iptal et
         ci.cancel();
     }
 }
